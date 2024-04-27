@@ -2,17 +2,17 @@ body {
     text-align: center;
     background-image: linear-gradient(black, green);
     color: chartreuse;
-    font-family: Papyrus;
     font-size: 70px;
 }
 
 p {
     color: rgb(255, 0, 0);
+    font-family: CathGrls;
 }
 
 @font-face {
-    font-family: Papyrus;
-    src: url(./fonts/papyrus.ttf);
+    font-family: CathGrls;
+    src: url(./fonts/cathgrls.TTF);
 }
 
 #blue {
@@ -21,4 +21,17 @@ p {
 
 #grey {
     color: dimgray;
+}
+
+nav {
+    text-align: center;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
