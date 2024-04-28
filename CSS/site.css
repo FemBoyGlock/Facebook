@@ -1,6 +1,7 @@
 body {
     text-align: center;
-    background-image: linear-gradient(black, green);
+    background-color: black;
+    background-image: linear-gradient(to bottom right, rgb(100, 48, 219), yellow);
     color: chartreuse;
     font-size: 70px;
 }
